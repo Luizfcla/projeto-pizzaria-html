@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <style>
+body{
+
+background-color: rgba(40, 197, 38, 0.774);}  
+div{background-color: rgba(13, 126, 49, 0.877);
+position: auto;
+
+
+}  
+    </style>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Pizzaria do seu Chico</title>
+    
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-image">
+            <img src="C:\Users\ALUNO\Documents\pizzachef.jpg"
+             alt= "chico com a pizza">
+
+        </div>
+
+        <div class="form">
+            <form action="#">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Bem vindo a melhor pizzaria da internet!</h1>
+                        <h3>Rua Jascinto Pinto n.157</h3>
+                    </div>
+    
+
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="Nome">Nome</label>
+                        <input id="Nome" type="text" name="Nome" placeholder="Digite seu nome" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="Endereço">Endereço</label>
+                        <input id="Endereço" type="text" name="Endereço" placeholder="Digite seu Endereço" required>
+                    </div>
+                   
+                    <div class="input-box">
+                        <label for="number">Número</label>
+                        <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
+                    </div>
+
+                
+                </div>
+
+
+                <div class="flavor-inputs">
+                    <div class="flavor-title">
+                        <h2>Sabores
+                        </h2>
+                    </div>
+
+                    <div class="flavor-group">
+                        <div class="flavor-input">
+                            <input id="Margherita" type="radio" name="flavor">
+                            <label for="Margherita">Margherita</label>
+                        </div>
+
+                        <div class="flavor-input">
+                            <input id="Calabresa" type="radio" name="flavor">
+                            <label for="Calabresa">Calabresa</label>
+                        </div>
+
+                        <div class="flavor-input">
+                            <input id=" Frango Catupiry" type="radio" name="flavor">
+                            <label for="Frango Catupiry">Frango Catupiry</label>
+                        </div>
+
+                    
+                        <div class="input-box">
+                            <label for="lastname">Sugestão</label>
+                            <input id="lastname" type="text" name="lastname" placeholder="Digite sua sugestão" required>
+                        </div>
+
+                        <div class="tam-inputs">
+                            <div class="tam-title">
+                                <h2>Tamanhos
+                                </h2>
+                            </div>
+
+                        <div class="tam-input">
+                            <input id="Grande" type="radio" name="tam">
+                            <label for="Grande">Grande 30R$ 40cm</label>
+                        </div>
+
+                        <div class="tam-input">
+                            <input id="Médio" type="radio" name="tam">
+                            <label for="Médio">Médio 20R$ 30cm</label>
+                        </div>
+
+                        <div class="tam-input">
+                            <input id="Pequeno" type="radio" name="tam">
+                            <label for="Pequeno">Pequeno 10R$ 15cm</label>
+                        </div>
+                        
+
+
+                        <div class="input-box">
+                            <label for="Descrição"><h2>Descrição
+                                </h2></label>
+                            <input id="Descrição" type="text" name="Descrição" placeholder="Descreva a sua pizza" required>
+                        </div>
+
+                    </div>
+                </div>
+
+                
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
